@@ -1,0 +1,104 @@
+/* Overall page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Template list */
+.template-list {
+    margin-top: 20px;
+}
+
+.template-link {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.template-link:hover {
+    background-color: #ccc;
+}
+
+/* Input fields for code generation */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Create section and code creation section */
+.create-section, .code-creation {
+    text-align: center;
+}
+
+/* Link for generated website */
+#generatedLink {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Template display */
+.templates {
+    display: flex;
+    flex-direction: column; /* Ensure each link is displayed on a new line */
+    gap: 10px;
+}
+
+/* Make code boxes and buttons stand out */
+input, textarea, button {
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
