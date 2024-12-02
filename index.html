@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Builder - Create Your Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Create Your Website</h1>
+
+    <!-- Section for creating websites from templates -->
+    <div class="create-section">
+        <h2>Choose Your Template</h2>
+        <button onclick="showTemplates()">Browse Templates</button>
+        <div class="template-list hidden">
+            <div class="templates">
+                <!-- Template links will be dynamically generated here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Section for code-based website creation -->
+    <div class="code-creation">
+        <h2>Create Website with Code</h2>
+        <textarea id="indexHtml" placeholder="Enter your HTML code"></textarea>
+        <textarea id="styleCss" placeholder="Enter your CSS code"></textarea>
+        <textarea id="scriptJs" placeholder="Enter your JavaScript code"></textarea>
+        <button onclick="generateWebsite()">Generate Website</button>
+
+        <!-- Display the generated website link -->
+        <div id="generatedLink"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
